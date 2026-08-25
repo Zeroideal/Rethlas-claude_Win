@@ -17,3 +17,7 @@ agents/generation/data/**/.extracted/
 
 # OS
 .DS_Store
+
+# Personal
+.env
+Readme_win.md

@@ -27,7 +27,7 @@ from mcp.server import validate_verification_output  # noqa: E402
 logger = logging.getLogger("verification.api")
 
 CLAUDE_BIN = os.getenv("CLAUDE_BIN", "claude")
-CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-opus-4-8")
+CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "Kimi-K2.6")
 CLAUDE_EFFORT = os.getenv("CLAUDE_EFFORT", "xhigh")
 CLAUDE_TIMEOUT_SECONDS = int(os.getenv("CLAUDE_TIMEOUT_SECONDS", "3600")) or None
 

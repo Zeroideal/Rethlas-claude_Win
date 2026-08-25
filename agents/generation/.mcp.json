@@ -2,7 +2,7 @@
   "mcpServers": {
     "reasoning_agent": {
       "type": "stdio",
-      "command": "python3",
+      "command": "python",
       "args": ["./mcp/server.py"]
     }
   }
